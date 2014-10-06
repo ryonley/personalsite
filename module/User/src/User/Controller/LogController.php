@@ -6,7 +6,11 @@ use Zend\EventManager\EventManager;
 
 class LogController extends AbstractActionController
 {
-
+    /**
+     * Testing
+     * 
+     * @return \Zend\Http\Response
+     */
     public function outAction()
     {
         $auth = $this->serviceLocator->get('auth');
